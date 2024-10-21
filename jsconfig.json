@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      // "@/*": ["./*"]
+      "@*": ["./*"]   //removing forward slash(/) to work the root path directly by @fileName instead of @/fileName
     }
   }
 }
